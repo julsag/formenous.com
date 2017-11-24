@@ -1,0 +1,91 @@
+/* General classes for page */
+
+body {
+  background-image: url("../images/grid.jpg");
+  font-family: 'Open Sans';
+}
+
+
+ .space {
+  margin-bottom: 100px;
+
+}
+
+.btn-medium {
+  background-color: #00C6FF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20em;
+  font-weight: 100;
+  text-decoration: none;
+  transition: opacity 0.3s ease, letter-spacing 0.3s ease;
+  font-size: 16px;
+
+}
+
+ 
+.btn-medium:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+  } 
+/* Footer */
+
+.footer{
+
+
+margin-top: 50px;
+background-color: white;
+height: 180px;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+
+  
+
+  
+}
+
+.footer p{
+size: 8px;
+color: #777777;
+}
+
+.footer h1{
+size: 10px;
+color: #777777;
+}
+
+.footer a{
+
+color: #6C6C6C;
+}
+
+/* Lead with big image */
+
+.wrapper {
+  background-image: url('../images/background/background.jpg');
+  height: 750px;
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.lead h1 {
+
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lead h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+}
+
